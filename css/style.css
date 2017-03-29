@@ -1,23 +1,164 @@
-.headerContent {
-	/*background-image: url("../images/BG_Hilscher_Github.png");*/
-	background-size: 100% 100%;
-}
-.headerContent h1 {
-	font-weight:100;
-	color: black;
-}
-.headerContent h2 {
-	font-weight:300;
-	margin:0;
-	color: rgb(116, 130, 230);
-}
-.jumbotron {
-     background-color:transparent !important; 
+.navbar-brand{
+    background-color:inherit;
+    position: relative;
+    margin-top: -18px;
 }
 
-body
+.content {
+	color: #313437;
+	background-color:#fff; 
+	padding-bottom:30px;
+}
+@media (max-width:767px)
 {
-	padding-bottom: 0;
-	background-color: #f0f0f0;
-	overflow-x: hidden;
+	.content {
+		padding-bottom:10px;
+	}
+
+}
+.content p {
+	color: #7d8285;
+}
+.content h2{
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top:40px;
+	color: inherit;
+}
+.content h2 p{
+	color: black;
+}
+@media (max-width:767px)
+{
+	.content h2 {
+		margin-bottom: 25px;
+		padding-top:25px;
+		font-size: 24px;
+	}
+}
+
+.content .background {
+	/*background:url("../images/BG_Hilscher_Github.png");*/
+	background-size: 750px 150px;
+	background-repeat: no-repeat;
+}
+.content .background .intro {
+	font-size: 16px;
+	max-width: 500px;
+	margin: 0 auto 60px;
+}
+@media (max-width:767px)
+{
+	.content intro {
+		margin-bottom: 40px;
+	}
+}
+.content .item {
+	min-height: 100px;
+	padding-left: 80px;
+	margin-bottom: 40px;
+}
+@media (max-width:767px)
+{
+	.content item {
+		min-height: 0;
+	}
+}
+
+/*********   Shaddowbox  ***************/
+.content .item .shadowbutton { 
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 5px 5px 20px -10px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+.content .item .shadowbutton .name {
+  background-color: #CC0613;
+  padding: 5px 15px;
+  color: white;
+  width: 230px;
+  position: absolute;
+  left: -30px;
+  bottom: 60px;
+  font-size: 100%;
+}
+.content .item .shadowbutton .description {
+	font-size: 14px;
+    margin-top: 60px;
+}
+.content .item .shadowbutton:hover {
+  -moz-box-shadow: 5px 5px 20px -10px #cc0613;
+  -webkit-box-shadow: 5px 5px 20px -10px #cc0613;
+  box-shadow: 5px 5px 20px -10px #cc0613; opacity: 0.8;
+}
+.content .item .shadowbutton a {
+     display:block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+}
+
+/*********   Footer  ***************/
+.footer-basic {
+	background-color:#ffffff; 
+	padding:40px 0;
+	color: #4b4c4d;
+}
+
+.footer-basic ul{
+	padding:0;
+	list-style:none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+.footer-basic li{
+	padding:0 10px;
+}
+.footer-basic ul a{
+	color: imherit;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.footer-basic ul a:hover{
+	opacity: 1;
+}
+.footer-basic .social{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.footer-basic .social > a{
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin: 0 8px;
+	color: inherit;
+	opacity: 0.75;
+}
+.footer-basic .social > a:hover{
+	opacity: 0.9;
+}
+.footer-basic .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+	margin-bottom: 0;
+}
+@media(max-width:767px){
+    .features-clean{
+        padding-bottom: 10px;
+    }
 }
