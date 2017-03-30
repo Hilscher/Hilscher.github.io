@@ -1,78 +1,51 @@
+/*********   intro ***************/
 .navbar-brand{
     background-color:inherit;
     position: relative;
-    margin-top: -18px;
+    /*margin-top: -18px;*/
 }
 
+.navbar-link{
+    margin-top: -10px;
+}
 .content {
 	color: #313437;
 	background-color:#fff; 
 	padding-bottom:30px;
 }
-@media (max-width:767px)
-{
-	.content {
-		padding-bottom:10px;
-	}
-
-}
-.content p {
-	color: #7d8285;
-}
-.content h2{
-	font-weight: bold;
-	margin-bottom: 40px;
-	padding-top:40px;
-	color: inherit;
-}
-.content h2 p{
-	color: black;
-}
-@media (max-width:767px)
-{
-	.content h2 {
-		margin-bottom: 25px;
-		padding-top:25px;
-		font-size: 24px;
-	}
-}
-
-.content .background {
-	/*background:url("../images/BG_Hilscher_Github.png");*/
-	background-size: 750px 150px;
-	background-repeat: no-repeat;
-}
-.content .background .intro {
-	font-size: 16px;
-	max-width: 500px;
+.content .intro {
+	max-width: 1500px;
 	margin: 0 auto 60px;
+	padding-top:20px;
 }
-@media (max-width:767px)
-{
-	.content intro {
-		margin-bottom: 40px;
-	}
+.ui.header {
+    border: none;
+    margin: calc(2rem - .14285em) 0 1rem;
+    padding: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857em;
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+	text-align: center;
 }
-.content .item {
-	min-height: 100px;
-	padding-left: 80px;
-	margin-bottom: 40px;
+._3cO0u {
+    color: #585858 !important;
 }
-@media (max-width:767px)
-{
-	.content item {
-		min-height: 0;
-	}
+._2aPKQ {
+   color: #8d9399 !important;
 }
 
-/*********   Shaddowbox  ***************/
+/*********   box within item ***************/
+.content .item {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
 .content .item .shadowbutton { 
-    float: left;
-    position: relative;
     margin-bottom: 20px;
-    margin-right: 20px;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     box-shadow: 5px 5px 20px -10px;
     border: 1px solid black;
     text-align: center;
@@ -80,22 +53,26 @@
 }
 .content .item .shadowbutton .name {
   background-color: #CC0613;
-  padding: 5px 15px;
+  padding: 15px 15px;
   color: white;
-  width: 230px;
+  width: 250px;
   position: absolute;
-  left: -30px;
+  left: 0px;
   bottom: 60px;
   font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 65px;
 }
 .content .item .shadowbutton .description {
 	font-size: 14px;
-    margin-top: 60px;
+    margin-top: 100px;
+	color: #7d8285;
 }
+
 .content .item .shadowbutton:hover {
   -moz-box-shadow: 5px 5px 20px -10px #cc0613;
   -webkit-box-shadow: 5px 5px 20px -10px #cc0613;
-  box-shadow: 5px 5px 20px -10px #cc0613; opacity: 0.8;
+  box-shadow: 5px 5px 20px -10px #cc0613; opacity: 0.9;
 }
 .content .item .shadowbutton a {
      display:block;
@@ -105,6 +82,41 @@
 }
 
 /*********   Footer  ***************/
+/*  own
+.footer {
+	background-color:#ffffff; 
+	padding:40px 0;
+	color: #4b4c4d;
+}
+.footer .footer-social {
+	background-color:#ffff11; 
+	padding:40px 0;
+	color: #4b4c4d;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.footer a{
+	color: #70726F;
+	font-size: 20px;
+	padding: 10px;
+	border-right: 1px solid #70726F;
+	transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+.footer .footer-copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+	margin-bottom: 0;
+}
+*/
+
 .footer-basic {
 	background-color:#ffffff; 
 	padding:40px 0;
@@ -132,7 +144,7 @@
 }
 .footer-basic .social{
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 }
 .footer-basic .social > a{
 	font-size: 24px;
@@ -157,8 +169,10 @@
 	color: #aaa;
 	margin-bottom: 0;
 }
+
 @media(max-width:767px){
-    .features-clean{
-        padding-bottom: 10px;
-    }
+.features-clean{
+	padding-bottom: 10px;
 }
+}
+
