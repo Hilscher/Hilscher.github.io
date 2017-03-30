@@ -4,7 +4,6 @@
     position: relative;
     /*margin-top: -18px;*/
 }
-
 .navbar-link{
     margin-top: -10px;
 }
@@ -82,47 +81,11 @@
 }
 
 /*********   Footer  ***************/
-/*  own
-.footer {
-	background-color:#ffffff; 
-	padding:40px 0;
-	color: #4b4c4d;
-}
-.footer .footer-social {
-	background-color:#ffff11; 
-	padding:40px 0;
-	color: #4b4c4d;
-	text-align: center;
-	padding-bottom: 25px;
-}
-.footer a{
-	color: #70726F;
-	font-size: 20px;
-	padding: 10px;
-	border-right: 1px solid #70726F;
-	transition: all .5s ease;
-}
-.footer a:first-child {
-  border-left: 1px solid #70726F;
-}
-.footer a:hover {
-  color: white;
-}
-.footer .footer-copyright{
-	margin-top: 15px;
-	text-align: center;
-	font-size: 13px;
-	color: #aaa;
-	margin-bottom: 0;
-}
-*/
-
 .footer-basic {
 	background-color:#ffffff; 
 	padding:40px 0;
 	color: #4b4c4d;
 }
-
 .footer-basic ul{
 	padding:0;
 	list-style:none;

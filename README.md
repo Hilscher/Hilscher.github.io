@@ -1,5 +1,3 @@
-Portal for Hilscher open source at GitHub http://Hilscher.github.io.
+Portal for Hilscher open source at [GitHub-Pages](http://Hilscher.github.io).
 
-Visit us at http://www.hilscher.com/?cats=.
-
-[Contact us](mailto:info@hilscher.com)
+Visit us at [hilscher.com](http://www.hilscher.com/?cats=) or [contact us](mailto:info@hilscher.com)
